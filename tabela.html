@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+
+   <!-- Latest compiled and minified CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+    <!-- Container Fluid que abrigará o Logotipo do Sistema -->
+    <div class="container-fluid text-center" style="margin-top:30px; margin-bottom:30px;"> 
+      <img src="img/logostorm.png" style="width:500px;" title="Storm's Clothes">
+    </div>
+
+    <!-- Aqui fica a barra de navegação do sistema -->
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top" style="background-color:rgb(65, 67, 192)">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tabela.html">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="formLogin.html">Login</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-primary" type="button">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+     <!-- Aqui ficará a tabela do sistema -->
+
+      <div class="container mt-3">
+        <h2>Entre em contanto com nós:</h2>
+        <p>No momento somente nossos emails estarão disponiveis:</p>
+        <table class="table table-bordered table-sm">
+          <thead>
+            <tr>
+              <th>Primeiro Nome</th>
+              <th>Segundo Nome</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr>
+              <td>Mary</td>
+              <td>Moe</td>
+              <td>mary@example.com</td>
+            </tr>
+            <tr>
+              <td>July</td>
+              <td>Dooley</td>
+              <td>july@example.com</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Container que abrigará o rodapé da página -->
+      <div class="contaier-fluid text-center bg-dark text-light fixed-bottom">
+        <p>
+          Interfaces para um sistema de vendas de Brechó<br>
+                Desenvolvido por
+          <b>
+            <a href="mailto:ferrarimalu10@gmail.com?Subject=Tecnologias Web" title="Entre em Contato">ferrarimalu10</a>
+          </b>
+        </p>
+
+      </div>
+    
+</body>
+</html>
